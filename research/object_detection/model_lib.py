@@ -23,7 +23,7 @@ import functools
 import os
 
 import tensorflow as tf
-
+import matplotlib; matplotlib.use('Agg')
 from object_detection import eval_util
 from object_detection import inputs
 from object_detection.builders import graph_rewriter_builder
